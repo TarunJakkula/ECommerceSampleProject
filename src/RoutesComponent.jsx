@@ -11,13 +11,13 @@ export default function RoutesComponent() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App cart={cart} />} />
+        <Route path="/ECommerceSampleProject/" element={<App cart={cart} />} />
         <Route
-          path="/Items/:id"
+          path="/ECommerceSampleProject/Items/:id"
           element={<ItemPage cart={cart} setCart={setCart} />}
         />
         <Route
-          path="/cart"
+          path="/ECommerceSampleProject/cart"
           element={
             <Cart
               cart={cart}
@@ -28,7 +28,7 @@ export default function RoutesComponent() {
           }
         />
         <Route
-          path="/dashboard"
+          path="/ECommerceSampleProject/dashboard"
           element={<History history={history} setHistory={setHistory} />}
         />
       </Routes>
