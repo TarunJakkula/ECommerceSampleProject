@@ -13,7 +13,7 @@ export default function RoutesComponent() {
       <Routes>
         <Route path="/" element={<App cart={cart} />} />
         <Route
-          path="/:id"
+          path="/Items/:id"
           element={<ItemPage cart={cart} setCart={setCart} />}
         />
         <Route
