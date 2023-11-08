@@ -1,8 +1,11 @@
-# React + Vite
+# ECommerce Replica
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a sample webpage mimicing a ecommerce website.
+This is just a frontend implementaion of the webpage built using ReactJs.
 
-Currently, two official plugins are available:
+Features implemented:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Sections for men and women
+2. Filter feature
+3. A dynamic cart which displays individual and total prices of items added to cart
+4. A dashboard which displays order history and visual charts of the orders made.
