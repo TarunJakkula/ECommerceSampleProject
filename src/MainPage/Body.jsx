@@ -23,7 +23,7 @@ export default function Body({ isDesktopOrLaptop, men, women }) {
   ];
 
   const handleclick = (id) => {
-    navigate("/Items/" + id);
+    navigate("/ECommerceSampleProject/Items/" + id);
   };
 
   return (

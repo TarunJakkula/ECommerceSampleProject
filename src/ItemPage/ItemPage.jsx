@@ -522,7 +522,7 @@ export default function ItemPage({ cart, setCart }) {
               <button
                 className="flex text-[20px] font-bold items-center relative"
                 onClick={() => {
-                  navigate("/cart");
+                  navigate("/ECommerceSampleProject/cart");
                 }}
               >
                 <div className="absolute bg-red-500 px-[5px] text-white rounded-2xl text-[12px] -top-[10px] -left-[10px]">
