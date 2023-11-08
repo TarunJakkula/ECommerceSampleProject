@@ -160,8 +160,7 @@ export default function Cart({ cart, setCart, history, setHistory }) {
         </div>
       )}
       <footer className="bg-black flex justify-evenly py-[100px] text-white">
-        <span>developed by Tarun Jakkula</span>
-        <span>For Cognida coding challenge</span>
+        developed by Tarun Jakkula
       </footer>
     </div>
   );

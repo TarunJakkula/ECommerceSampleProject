@@ -219,8 +219,7 @@ export default function History({ history, setHistory }) {
         </>
       )}
       <footer className="bg-black flex justify-evenly py-[100px] text-white">
-        <span>developed by Tarun Jakkula</span>
-        <span>For Cognida coding challenge</span>
+        developed by Tarun Jakkula
       </footer>
     </div>
   );
